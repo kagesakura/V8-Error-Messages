@@ -62,7 +62,7 @@ new Set().union({ size: NaN })
 
 ## RangeError: '-1' is an invalid size
 \[Firefox] RangeError: Set size must be non-negative  
-\[Safari on iOS] (no RangeError thrown 🤯!! I don't think this behavior conforms to the specification. as of Jan 31 2025)
+\[Safari on iOS] (The thrown error is not RangeError but TypeError 🤯!! I don't think this behavior conforms to the specification. as of Jan 31 2025)
 ```js
 new Set().union({ size: -1 })
 ```
