@@ -30,6 +30,7 @@ class A {
 ```
 
 ## SyntaxError: Cannot use new with import
+\[Firefox] SyntaxError: unexpected token: '('
 ```js
 new import("");
 ```
