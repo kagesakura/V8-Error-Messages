@@ -51,6 +51,7 @@ generator.next();
 ```
 
 ## SyntaxError: Too many parameters in function definition (only 65534 allowed)
+This is an error unique to V8 Engine, I think.  
 [SourceCode (too large)](syntaxerror_too_many_parameters_in_function_definition_only_65534_allowed.js)
 
 ## TypeError: The .size property is NaN
