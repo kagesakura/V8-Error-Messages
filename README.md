@@ -1,3 +1,5 @@
+> as of Jan 31 2025
+
 # V8 Error Messages
 There are only V8 Error Messages that caught my attention. (not all errors)  
 
@@ -63,7 +65,7 @@ new Set().union({ size: NaN })
 
 ## RangeError: '-1' is an invalid size
 \[Firefox] RangeError: Set size must be non-negative  
-\[Safari on iOS] (The thrown error is not RangeError but TypeError 🤯!! I don't think this behavior conforms to the specification. as of Jan 31 2025)
+\[Safari on iOS] (The thrown error is not RangeError but TypeError 🤯!! I don't think this behavior conforms to the specification)
 ```js
 new Set().union({ size: -1 })
 ```
